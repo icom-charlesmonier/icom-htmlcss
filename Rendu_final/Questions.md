@@ -6,7 +6,7 @@
 
 Mon projet est organisé de cette manière car pour moi c'est la façon la plus simple et rapide de faire mon code. Je suis d'accord sur le fait que celui pourrait être un peu plus clair mais il l'est pour moi.
 
-## Comment suis-je arrvé à ce résultat ?
+## Comment suis-je arrivé à ce résultat ?
 
 Je suis arrivé à ce résultat grace à la lecture attentive de vos diaporamas ainsi qu'à l'aide apporté par certains de mes camarades.
 
