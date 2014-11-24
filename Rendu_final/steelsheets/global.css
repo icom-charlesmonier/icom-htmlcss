@@ -1,0 +1,291 @@
+/*RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+/* Header */
+body {
+	max-width : 960px;
+	margin : 0 auto;
+	position : relative;
+	font-family: "Lato", Arial, sans-serif;
+}
+
+header {
+
+}
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("../font/flaticon.eot");
+	src: url("../font/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../font/flaticon.woff") format("woff"),
+	url("../font/flaticon.ttf") format("truetype"),
+	url("../font/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-checked18:before {
+	content: "\e000";
+}
+.flaticon-leaf32:before {
+	content: "\e001";
+}
+.flaticon-play43:before {
+	content: "\e002";
+}
+
+.block > ul {
+	list-style: disc;
+}
+.block > ul > li {
+
+	border-bottom: 1px solid #E0E0DE;
+	padding: 5px 0 5px 0;
+
+}
+.footer-top-col > ul > li {
+
+	display: inline-block;
+}
+
+.attribute-header > h2 {
+	margin-bottom: 5px;
+}
+
+.icon {
+	height: 40px;
+	width: 40px;
+}
+
+#social-icons > img {
+	width:20px;
+	height: 20px;
+}
+
+#social-icons {
+	margin-top: 10px;
+}
+
+#footer-bottom {
+	color: #fff;
+	height: 50px;
+	background-color: #000;
+	padding-top: 25px;
+	padding-left:25px;
+}
+
+#menu {
+	float: right;
+}
+
+#menu ul li {
+	display: inline-block;
+	float: left;
+}
+
+.clear {
+	clear : both;
+}
+
+#wrapper #header {
+	position : relative ;
+	margin : 0px auto 100px ;
+
+	height : 100px;
+}
+
+#wrapper #header #logo {
+	/*position : absolute;*/
+	/*width : 200px;*/
+	float: left;
+}
+.img-responsive {
+	width : 100%;
+	height : auto;
+	margin:0px auto;
+}
+
+#wrapper #header #menu {
+	float : right;
+	margin : auto ;
+	/*width : 720px;*/
+}
+
+#wrapper #header #menu ul {
+	display : inline;
+	margin : 10px 0px 0px ;
+}
+
+#wrapper #header #menu ul li{
+	position : relative;
+	margin: 15px 2px;
+}
+
+#wrapper #header #menu ul li a {
+	display : block;
+	float :left;
+	text-align : left;
+	padding: 51px 10px 20px;
+	margin : 0px 5px;
+	font-size : 9px;
+	font-weight : bold;
+	color: #333333;
+	text-transform : uppercase;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+span {
+	color : grey;
+	text-transform : none;
+	font-weight: 0;
+}
+
+/* Content */
+
+#wrapper #content #slider {
+
+}
+
+.slider-responsive {
+	width : 100%;
+	height : auto ;
+	margin : 0px auto ;
+}
+
+#wrapper #container {
+	margin : 0px auto 100px ;
+	/*width : 960px;*/
+	height : 100px;
+}
+
+#wrapper #container #content-left{
+	background-color : #fcfcfc ;	
+}
+
+#wrapper #container #content-right{
+	background-color : #fcfcfc ;	
+}
+
+.col{
+	width:33.333332%;
+	float:left;
+}
+
+.col .block{
+	padding:10px 20px;
+}
+.col .attribute-header{
+	padding:10px 0px;
+}
+.col h2 {
+	color : grey ;
+	text-transform : uppercase;
+	font-size : 20px;
+	padding:0px 10px;
+	border-left:4px solid #3e7dbd;
+
+}
+
+.col h3 {
+	color : #3e7dbd ;
+	text-transform : uppercase;
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.col .date-col-left {
+	color : green ;
+	text-transform : uppercase;
+	font-size : 9px;
+	font-weight : bold;
+}
+
+.col .date-col-mid {
+	color : grey ;
+	text-transform : uppercase;
+	font-size : 9px;
+}
+
+.col .time {
+	margin-left : 10%;
+	color : grey ;
+	text-transform : uppercase;
+	font-size : 9px;
+	font-weight : bold;
+}
+
+.col .more {
+	color : #3e7dbd ;
+	text-transform : uppercase;
+	font-size : 9px;
+}
+
+.col p {
+	color : grey ;
+	font-size : 10px;
+	padding : 10px 0 0 0;
+}
+
+.button {
+	background-color: #3e7dbd ;
+	margin : 30px;
+	padding : 5px;
+}
